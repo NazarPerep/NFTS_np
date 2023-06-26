@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>NFTs</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header">
+    <div class="header__container">
+        <div class="header__menu menu _anim-items _anim-no-hide">
+            <div class="menu__logo">
+                <a href="#" class="menu__logo-link">
+                    <img src="img/nfts_logo.svg" alt="nfts logo" class="menu__logo-image">
+                    <span>NFTs</span>
+                </a>
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__body-list">
+                    <li class="menu__body-list-item"><a href="#" class="menu__body-list-item-link">Home</a></li>
+                    <li class="menu__body-list-item"><a href="#" class="menu__body-list-item-link" target="_blank">Market</a></li>
+                    <li class="menu__body-list-item"><a href="#" class="menu__body-list-item-link">Artists</a></li>
+                    <li class="menu__body-list-item"><a href="#" class="menu__body-list-item-link">Community</a></li>
+                    <li class="menu__body-list-item"><a href="#" class="menu__body-list-item-link">Wallet</a></li>
+                </ul>
+                <div class="menu__login-list">
+                    <div class="menu__login-list-item-login"><a id="login" class="menu__login-list-item-login-link" href="#">Login</a></div>
+                    <div class="menu__login-list-item-sing-up"><a id="sing_up" class="menu__login-list-item-sing-up-link" href="#">Sign Up</a></div>
+                </div>
+            </nav>
+            
+            <div class="menu__burger-icon">
+                <span class="menu__burger-icon-top"></span>
+                <span class="menu__burger-icon-mid"></span>
+                <span class="menu__burger-icon-bot"></span>
+            </div>
+        </div>
+        <div  id="header__main" class="header__main _anim-items _anim-no-hide">
+            <div class="header__main-part-left">
+                <h1 class="header__main-title">Discover, Collect and Sell Dope NFTs</h1>
+            <p class="header__main-subtitle">Lorem ipsum dolor sit amet, consectetur adipisc elit amet. Consectetu at it lrorem ipsum dolor sit amet.</p>
+            <div class="header__main-buttons">
+                <div class="header__main-buttons-item"><a href="#" class="header__main-buttons-item-link">Explore</a></div>
+                <div class="header__main-buttons-item"><a href="#" class="header__main-buttons-item-link">Create </a></div>
+            </div>
+            <div class="header__main-raiting-group main-raiting-group">
+                <div class="main-raiting-group__item"><span class="counter" data-target="80000"></span>+<p class="main-raiting-group__item-name">Active user</p></div>
+                <div class="main-raiting-group__item"><span class="counter" data-target="27000"></span>+<p class="main-raiting-group__item-name">Artworks</p></div>
+                <div class="main-raiting-group__item"><span class="counter" data-target="3500"></span>+<p class="main-raiting-group__item-name">Artists</p></div>
+            </div>
+            </div>
+            <div class="header__main-part-right"></div>
+        </div>
+        
+    </div>
+</header>
+    <main class="main" id="main">
+    <div class="main__container">
+        <section class="main__advertising advertising _anim-items">
+            <div class="advertising__block">
+                <a href="#" class="advertising__block-link"><img src="img/amazon.png" alt="Amazon"
+                        class="advertising__block-link-img"></a>
+                <a href="#" class="advertising__block-link"><img src="img/slack.png" alt="Slack"
+                        class="advertising__block-link-img"></a>
+                <a href="#" class="advertising__block-link"><img src="img/paradigm.png" alt="Paradigm"
+                        class="advertising__block-link-img"></a>
+                <a href="#" class="advertising__block-link"><img src="img/chase.png" alt="Chase"
+                        class="advertising__block-link-img"></a>
+                <a href="#" class="advertising__block-link"><img src="img/binance.png" alt="Binance"
+                        class="advertising__block-link-img"></a>
+            </div>
+        </section>
+        <section class="main__how_it_works how_it_works _anim-items">
+            <div class="how_it_works__left-part _anim-items _animate-show">
+                <h2 class="how_it_works__left-part-title">How it Works</h2>
+                <p class="how_it_works__left-part-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    amet. Lorem ipsum dolor sit amet, consecte adipiscing elit ipsum.</p>
+                <a href="" class="how_it_works__left-part-button">Learn More</a>
+            </div>
+            <div class="how_it_works__right-part">
+                <div class="how_it_works__right-part-item _anim-items _animate-show">
+                    <img class="how_it_works__right-part-item-image" src="img/set_up.png" alt="">
+                    <h3 class="how_it_works__right-part-item-title">Set up Your Wallet</h3>
+                    <p class="how_it_works__right-part-item-subtitle">Lorem ipsum dolor sit amet, consectetur at
+                        adipiscing elit amet.</p>
+                </div>
+                <div class="how_it_works__right-part-item _anim-items _animate-show">
+                    <img class="how_it_works__right-part-item-image" src="img/buy.png" alt="">
+                    <h3 class="how_it_works__right-part-item-title">Buy Your Collection</h3>
+                    <p class="how_it_works__right-part-item-subtitle">Lorem ipsum dolor sit amet, consectetur at
+                        adipiscing elit amet.</p>
+                </div>
+                <div class="how_it_works__right-part-item _anim-items _animate-show">
+                    <img class="how_it_works__right-part-item-image" src="img/sell.png" alt="">
+                    <h3 class="how_it_works__right-part-item-title">Sell Your NFTs</h3>
+                    <p class="how_it_works__right-part-item-subtitle">Lorem ipsum dolor sit amet, consectetur at
+                        adipiscing elit amet.</p>
+                </div>
+                <div class="how_it_works__right-part-item _anim-items _animate-show">
+                    <img class="how_it_works__right-part-item-image" src="img/add.png" alt="">
+                    <h3 class="how_it_works__right-part-item-title">Add Your NFTs</h3>
+                    <p class="how_it_works__right-part-item-subtitle">Lorem ipsum dolor sit amet, consectetur at
+                        adipiscing elit amet.</p>
+                </div>
+            </div>
+        </section>
+        <section class="main__auctions">
+            <div class="main__auctions-container">
+            <div class="main__auctions-group-title _anim-items _animate-show">
+                <div class="main__auctions-group-title-text">
+                    <h3 class="main__auctions-group-title-text-header">Trening Auctions</h3>
+                    <p class="main__auctions-group-title-text-subtitle">Lorem ipsum dolor sit amet, consectetur adipisc
+                        elit amet. Consectetu at it lrorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="main__auctions-group-title-buttons">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+            <div class="swiper-container _anim-items _animate-show">
+                <div class="swiper-wrapper">
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">VERUALY ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/verualy.jpg" alt="Verualy art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="man icon">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">CAT ICON ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/cat_icon_art.jpg" alt="cat icon art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="man icon">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">DOG ICON ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/dog_icon_art.jpg" alt="dog icon art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="icon man">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide  ">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">STAR WARS CLONE ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/starwars.webp" alt="star wars icon">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="icon man">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">VERUALY ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/verualy.jpg" alt="Verualy art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="man icon">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">CAT ICON ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/cat_icon_art.jpg" alt="cat icon art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="man icon">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">DOG ICON ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/dog_icon_art.jpg" alt="dog icon art">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="icon man">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                    <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="auctions__page swiper-slide">
+                    <div class="auctions__page-info">
+                        <div class="auctions__page-info-header">
+                            <h4 class="auctions__page-info-header-title">STAR WARS CLONE ART</h4>
+                            <article class="auctions__page-info-header-nickname">@nftsart</article>
+                        </div>
+                        <div class="auctions__page-info-image">
+                            <img class="auctions__page-info-image-main" src="img/starwars.webp" alt="star wars icon">
+                            <div class="auctions__page-info-image-details">
+                                <div class="auctions__page-info-image-details-icon">
+                                    <img src="img/man_avatar_little.png" alt="icon man">
+                                </div>
+                                <div class="auctions__page-info-image-details-likes likes-center">
+                                    <img src="img/likes.png" alt="heart icon">
+                                    <span class="auctions__page-info-image-details-likes-number">45.5K</span>
+                                </div>
+                                <div class="auctions__page-info-image-details-people-number">
+                                    <img src="img/people.png" alt="people icon">
+                                    <span class="auctions__page-info-image-details-people-number-text">25.6K</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="auctions__page-info-date-price">
+                            <div class="auctions__page-info-date">
+                                <div class="auctions__page-info-date-original">
+                                    <div class="clock"></div>
+                                </div>
+                                <span class="auctions__page-info-date-remaining">Remaining Time</span>
+                            </div>
+                            <div class="auctions__page-info-price">
+                                <span class="auctions__page-info-price-number">20.25 ETH</span>
+                                <span class="auctions__page-info-price-high">Highest bid</span>
+                            </div>
+                            <span class="auctions__page-info-price-btn-bid">Place a Bid</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </section>
+        <section id="top-seller" class="top-seller">
+            <div class="top-seller__container">
+                <div class="top-seller__group-header _anim-items _animate-show">
+                    <h3 class="top-seller__group-header-title">Top Seller</h3>
+                <a href="#" class="top-seller__group-header-btn">View all</a>
+                </div>
+                <div class="top-seller__sellers-list _anim-items _animate-show">
+                    <div class="top-seller__sellers-list-top sellers-list-top">
+                        <div class="sellers-list-top-card">
+                            <div class="sellers-list-top-card-img">
+                                <img src="img/man_avatar_max.png" alt="">
+                            </div>
+                            <div class="sellers-list-top-card-info">
+                                <span class="sellers-list-top-card-name">Alex Maverick</span>
+                                <span class="sellers-list-top-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                        <div class="sellers-list-top-card">
+                            <div class="sellers-list-top-card-img">
+                                <img src="img/man_avatar_sunglasses.png" alt="">
+                            </div>
+                            <div class="sellers-list-top-card-info">
+                                <span class="sellers-list-top-card-name">Benjamin John</span>
+                                <span class="sellers-list-top-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                        <div class="sellers-list-top-card">
+                            <div class="sellers-list-top-card-img">
+                                <img src="img/girl_avatar_max.png" alt="">
+                            </div>
+                            <div class="sellers-list-top-card-info">
+                                <span class="sellers-list-top-card-name">Kingston Lara</span>
+                                <span class="sellers-list-top-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-seller__sellers-list-bottom sellers-list-bottom">
+                        <div class="sellers-list-bottom-card">
+                            <div class="sellers-list-bottom-card-img">
+                                <img src="img/girl_avatar_max.png" alt="">
+                            </div>
+                            <div class="sellers-list-bottom-card-info">
+                                <span class="sellers-list-bottom-card-name">Kingston Lara</span>
+                                <span class="sellers-list-bottom-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                        <div class="sellers-list-bottom-card">
+                            <div class="sellers-list-bottom-card-img">
+                                <img src="img/man_avatar_max.png" alt="">
+                            </div>
+                            <div class="sellers-list-bottom-card-info">
+                                <span class="sellers-list-bottom-card-name">Benjamin John</span>
+                                <span class="sellers-list-bottom-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                        <div class="sellers-list-bottom-card">
+                            <div class="sellers-list-bottom-card-img">
+                                <img src="img/man_avatar_sunglasses.png" alt="">
+                            </div>
+                            <div class="sellers-list-bottom-card-info">
+                                <span class="sellers-list-bottom-card-name">Alex Maverick</span>
+                                <span class="sellers-list-bottom-card-artworks">400 Artworks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hot-collections" class="hot-collections">
+            <div class="hot-collections__container">
+                <div class="hot-collections__group-header _anim-items _animate-show">
+                    <div class="hot-collections__group-header-text">
+                        <h3 class="hot-collections__group-header-title">Hot Collections</h3>
+                        <p class="hot-collections__group-header-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit amet.</p>
+                    </div>
+                    <a href="#" class="hot-collections__group-header-btn">View all</a>
+                </div>
+                <div class="hot-collections__list">
+                    <div class="hot-collections__list-card _anim-items _animate-show">
+                        <div class="hot-collections__list-card-img-main">
+                            <img src="img/art_item_1.jpg" alt="Art items picture">
+                        </div>
+                        <div class="hot-collections__list-card-imgs-smal">
+                            <img src="img/art_item_2.jpg" alt="Art items picture">
+                            <img src="img/art_item_3.jpg" alt="Art items picture">
+                            <img src="img/art_item_4.jpg" alt="Art items picture">
+                        </div>
+                        <div class="hot-collections__list-card-icon">
+                            <img src="img/art_logo.png" alt="Art items logo">
+                        </div>
+                        <div class="hot-collections__list-card-info">
+                            <h5 class="hot-collections__list-card-info-name">Art item</h5>
+                            <a href="#" class="hot-collections__list-card-info-btn">35+ item</a>
+                        </div>
+                    </div>
+                    <div class="hot-collections__list-card _anim-items _animate-show">
+                        <div class="hot-collections__list-card-img-main">
+                            <img src="img/cubic_item_1.png" alt="Cubics picture">
+                        </div>
+                        <div class="hot-collections__list-card-imgs-smal">
+                            <img src="img/cubic_item_2.png" alt="Cubics picture">
+                            <img src="img/cubic_item_3.png" alt="Cubics picture">
+                            <img src="img/cubic_item_4.png" alt="Cubics picture">
+                        </div>
+                        <div class="hot-collections__list-card-icon">
+                            <img src="img/cubic_logo.png" alt="Cubics logo">
+                        </div>
+                        <div class="hot-collections__list-card-info">
+                            <h5 class="hot-collections__list-card-info-name">Cubic</h5>
+                            <a href="#" class="hot-collections__list-card-info-btn">35+ item</a>
+                        </div>
+                    </div>
+                    <div class="hot-collections__list-card _anim-items _animate-show">
+                        <div class="hot-collections__list-card-img-main">
+                            <img src="img/diamond_item_1.png" alt="Diamonds picture">
+                        </div>
+                        <div class="hot-collections__list-card-imgs-smal">
+                            <img src="img/diamond_item_2.png" alt="Diamonds picture">
+                            <img src="img/diamond_item_3.png" alt="Diamonds picture">
+                            <img src="img/diamond_item_4.png" alt="Diamonds picture">
+                        </div>
+                        <div class="hot-collections__list-card-icon">
+                            <img src="img/diamond_logo.png" alt="Diamonds logo">
+                        </div>
+                        <div class="hot-collections__list-card-info">
+                            <h5 class="hot-collections__list-card-info-name">Diamond</h5>
+                            <a href="#" class="hot-collections__list-card-info-btn">35+ item</a>
+                        </div>
+                    </div>
+                    <div class="hot-collections__list-card _anim-items _animate-show">
+                        <div class="hot-collections__list-card-img-main">
+                            <img src="img/morgan_item_1.png" alt="Morgans 11 picture">
+                        </div>
+                        <div class="hot-collections__list-card-imgs-smal">
+                            <img src="img/morgan_item_2.png" alt="Morgans 11 picture">
+                            <img src="img/morgan_item_3.png" alt="Morgans 11 picture">
+                            <img src="img/morgan_item_4.png" alt="Morgans 11 picture">
+                        </div>
+                        <div class="hot-collections__list-card-icon">
+                            <img src="img/morgan_logo.png" alt="Morgan 11 logo">
+                        </div>
+                        <div class="hot-collections__list-card-info">
+                            <h5 class="hot-collections__list-card-info-name">Morgan11</h5>
+                            <a href="#" class="hot-collections__list-card-info-btn">35+ item</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="subscribe__container">
+                <div class="subscribe__main _anim-items _animate-show">
+                    <div class="subscribe__main-left">
+                        <h3 class="subscribe__main-left-title">Subscribe Our Newsletters</h3>
+                        <p class="subscribe__main-left-subtitle">Lorem ipsum dolor sit amet, consectetur adipisc elit amet ipsum dolor sit amet, 
+                            consectetur adipisc elit.  Lorem ipsum dolor sit amet.</p>
+                        <div class="subscribe__main-left-input-group">
+                            <input type="email" name="subscribe-mail" id="subscribe__main-left-input-group-mail" 
+                            class="subscribe__main-left-input-group-mail" placeholder="Enter your email...">
+                            <input type="submit" value="Subscribe" class="subscribe__main-left-input-group-btn">
+                        </div>
+                    </div>
+                    <div class="subscribe__main-right">
+                        <img src="img/subscribe_syst.png" alt="" class="subscribe__main-right-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+    <footer class="footer">
+    <div class="footer__container footer-nav">
+            <div data-spollers="426,max" class="block">
+                <div class="block__item _anim-items _animate-show">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Marketplace</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">All NFTs</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Art</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Music</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Domain Names</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers="426,max" class="block">
+                <div class="block__item _anim-items _animate-show">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Resources</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Home</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Partners</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Suggestions</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Discord</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div data-spollers="426,max" class="block">
+                <div class="block__item _anim-items _animate-show">
+                    <button tabindex="-1" data-spoller class="footer-nav__list-title block__title">Community</button>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">About Us</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Documentation</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Brand Assets</a></li>
+                        <li class="footer-nav__list-item"><a class="footer-nav__list-item-link" href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__social social _anim-items _animate-show">
+            <p class="social__info-title footer-nav__list-title">
+                Newsletter
+            </p>
+            <p class="social__info-subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit amet.
+            </p>
+            <ul class="social__icon">
+                <li class="social__icon-item"><a href="https://www.instagram.com" target="_blank" class="social__icon-item-link"><img src="img/instagram.png" alt="instagram"></a></li>
+                <li class="social__icon-item"><a href="https://uk-ua.facebook.com/" target="_blank" class="social__icon-item-link"><img src="img/facebook.png" alt="facebook"></a></li>
+                <li class="social__icon-item"><a href="https://twitter.com/?lang=uk" target="_blank" class="social__icon-item-link"><img src="img/twiter.png" alt="twitter"></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
